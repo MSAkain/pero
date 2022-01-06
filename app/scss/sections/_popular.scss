@@ -1,0 +1,66 @@
+.popular {
+	margin-bottom: 150px;
+
+	&__box {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 90px;
+	}
+
+	&__title {
+		margin-bottom: 0;
+	}
+
+	&__link {
+		color: $black;
+		text-decoration: underline;
+
+	}
+
+	&__swiper {
+		margin-bottom: 40px;
+	}
+
+	&__item {
+		border-radius: 10px;
+		height: 497px;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%);
+		background-repeat: no-repeat;
+	}
+
+	.swiper-navigation {
+		display: flex;
+		align-items: center;
+	}
+
+	.swiperPrev {
+		margin-right: 36px;
+	}
+
+	.swiperNext {
+		margin-right: 51px;
+	}
+
+	.swiperPrev.swiper-button-disabled,
+	.swiperNext.swiper-button-disabled {
+
+		path {
+			transition: stroke 0.5s linear;
+			stroke: $gray;
+		}
+	}
+
+	.swiper-scrollbar {
+		width: 100%;
+		height: 2px;
+		background-color: $gray;
+	}
+
+	.swiper-scrollbar-drag {
+		background-color: $blue;
+	}
+}
+
+
+
