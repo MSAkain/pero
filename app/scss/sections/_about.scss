@@ -1,0 +1,43 @@
+.about {
+	margin-bottom: 150px;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+
+	&__img {
+		flex: 0 0 104%;
+	}
+
+	&__content {
+		max-width: 100%;
+		flex: 0 0 50%;
+		transform: translateX(-100%);
+		
+	}
+
+	&__contaner {
+		max-width: 1140px;
+		padding: 0 10px;
+		margin: 0 auto;
+	}
+
+	&__body {
+		min-height: 476px;
+		max-width: 542px;
+		padding: 61px 75px 65px 85px;
+		background-color: $gray-2;
+		border-radius: 10px;
+	}
+
+	&__title {
+		margin-bottom: 40px;
+	}
+
+	&__text {
+		max-width: 382px;
+		p:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+}
+
