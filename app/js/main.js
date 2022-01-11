@@ -17,4 +17,17 @@ $(function () {
 		},
 	});
 
+	new Swiper('.reviews__swiper', {
+		slidesPerView: 1.5,
+		spaceBetween: 20,
+		navigation: {
+			nextEl: '.swiperNext',
+			prevEl: '.swiperPrev'
+		},
+		scrollbar: {
+			el: '.swiper-scrollbar',
+			draggable: true
+		},
+	});
+
 });
